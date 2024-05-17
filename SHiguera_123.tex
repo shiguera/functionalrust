@@ -1,0 +1,371 @@
+\documentclass[aspectratio = 169, 12pt]{beamer}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+
+\usepackage{wrapfig}
+\usepackage{xcolor}
+\definecolor{orange}{RGB}{255,165,0}
+\definecolor{darkgreen}{RGB}{0,100,0}
+
+
+\usetheme{Warsaw}
+\usecolortheme[RGB={0,150,0}]{structure}
+\usefonttheme{professionalfonts}
+% Temas Inner: portada, itemize, bloques de figuras y tablas, notas al pie y bibliografía
+\useinnertheme{rounded}
+% Temas Outer: cabecera y pie de página, barras laterales, logo y título de las frames
+\useoutertheme{shadow}
+
+\title{Introducción a la Programación Funcional}
+\author{Santiago Higuera de Frutos}
+\institute{Universidad Politécnica de Madrid}
+\date{Mayo 2024}
+\titlegraphic{\includegraphics[width=4cm]{img/Rustacean-orig-noshadow.png}}
+
+\begin{document}
+
+\begin{frame}
+   \begin{center}
+      \includegraphics[width=\textwidth]{img/banner_ice.png}
+   \end{center}
+   {\centering\Large\textbf{\textcolor{blue}{Introducción a la Programación Funcional}} \par}
+   \vspace{2em}
+   {\centering\textbf{\textcolor{gray}{Santiago Higuera de Frutos}} \par}
+   %{\centering\footnotesize\textbf{\textcolor{lightgray}{ETSIST Teleco Campus Sur}} \par}
+   \vfill
+   {\centering\includegraphics[width=4cm]{img/Rustacean-orig-noshadow.png} \par}
+\end{frame}
+	
+
+\begin{frame}
+	\frametitle{Contact Data}
+	\begin{center}
+      \begin{center}
+         \includegraphics[width=0.5\textwidth]{img/logos.png}
+      \end{center}
+      \vspace{2em}
+		{\Large\textbf{\textcolor{blue}{Santiago Higuera de Frutos}}}
+
+		\vspace{0.5em}
+		{\centering\textcolor{gray}{\textbf{PhD Civil Engineer \\	Departamento de Ingeniería Telemática y Electrónica \\Universidad Politécnica de Madrid}}\par}
+
+		\vspace{1.5em}
+	   {\centering \textbf{\textsc{santiago.higuera@upm.es}}\par}
+	\end{center}
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Introducción}
+	\framesubtitle{Pensar de manera funcional}
+
+   {\textbf{Origen de la Programación Funcional:} Cálculo Lambda (1930) \par}
+   \vspace{1em}
+	\begin{itemize}
+      \item \textbf{Funciones puras}
+      \item \textbf{Funciones de orden superior}
+      \item \textbf{Closures}
+      \item \textbf{Inmutabilidad}
+      \item \textbf{Recursividad}
+      \item \textbf{Iteradores}
+      \item \textbf{Evaluación perezosa}
+      \item \textbf{Sin estado ni efectos secundarios}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Distinguir datos, cálculos y acciones}
+	\framesubtitle{Datos}
+
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{Distinguir Datos, Cálculos y Acciones}
+	\framesubtitle{Cálculos: funciones puras}
+
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{Distinguir Datos, Cálculos y Acciones}
+	\framesubtitle{Acciones: funciones con efectos secundarios}
+
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{Agentes interesados en los inventarios}
+	\framesubtitle{Hacia un modelo de datos abierto para inventarios de carreteras}
+
+	\begin{center}
+		\textcolor{darkgreen}{\underline{\textbf{Diferentes agentes interesados en los inventarios:}}}
+	\end{center}
+
+	\vspace{0.5em}
+	\begin{itemize}
+		\item Las autoridades y las empresas encargadas de la construcción, mantenimiento y explotación de las carreteras: para estos existen equipos y aplicaciones informáticas que pueden ser de utilidad en entornos de altos recursos.
+		\item Otros agentes interesados en los inventarios de carreteras: las soluciones existentes no ofrecen la utilidad deseada. Es el caso de las fuerzas de seguridad y servicios de protección civil, pequeños ayuntamientos, empresas de transporte y logística, usuarios y muchos otros.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Naturaleza dinámica de la información}
+	\framesubtitle{Hacia un modelo de datos abierto para inventarios de carreteras}
+
+	Un aspecto importante de los inventarios de carreteras es la naturaleza dinámica de la información contenida en los mismos.
+
+	\vspace{1em}
+	\textcolor{red}{\textbf{Un inventario que no esté debidamente actualizado pierde utilidad}}
+
+	\vspace{1em}
+	Hay casos especiales en los que la frecuencia de cambio en el estado de las carreteras es muy alta, por ejemplo tras \textcolor{red}{\textbf{catástrofes naturales}}.
+
+	\vspace{1em}
+	En estos casos se hace necesario minimizar los tiempos dedicados a planificación, implementación y actualización de los inventarios
+\end{frame}
+
+\begin{frame}
+	\frametitle{Diseño y toma de datos}
+	\framesubtitle{Hacia un modelo de datos abierto para inventarios de carreteras}
+	El diseño y la planificación del inventario consiste básicamente en dos tareas:
+
+	\vspace{1em}
+	\begin{itemize}
+		\item Definir los elementos y variables que se pretende inventariar
+		\item Seleccionar los procedimientos y equipos que se van a utilizar en las siguientes fases del inventario
+	\end{itemize}
+
+	\vspace{1em}
+	Para definir un procedimiento de inventariado hay que resolver tres problemas:
+	\begin{itemize}
+		\item El modelo de datos
+		\item El formato de almacenamiento
+		\item El mecanismo para organizar y acceder a la información almacenada
+	\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{Modelos de datos existentes}
+	\framesubtitle{Hacia un modelo de datos abierto para inventarios de carreteras}
+	\textbf{Existen algunos modelos de datos, pero están principalmente destinados a las redes de carreteras tradicionales y a las autoridades y empresas encargadas del diseño, construcción y explotación.}
+
+	\vspace{1em}
+	\begin{itemize}
+		\item Aplicaciones comerciales: problemas de interoperabilidad
+		\item Algunos organismos promueven sistemas abiertos:
+		\begin{itemize}
+			\item LandXML
+			\item Open Geospatial Consortium
+			\item U.S. Department of Transportation
+			\item European Comission
+			\item IGN: Grupo de trabajo de Redes e Infraestructuras de transporte
+		\end{itemize}
+		\item Algunas aplicaciones SIG tienen extensiones: gvSIG
+	\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{El modelo de datos de OpenStreetMap}
+	\framesubtitle{Hacia un modelo de datos abierto para inventarios de carreteras}
+
+	\textcolor{red}{\textbf{OpenStreetMap}} utiliza un modelo de datos de uso general muy flexible para el análisis y tratamiento de información geográfica en formato vectorial
+
+	\vspace{1.0em}
+	\begin{wrapfigure}{r}{0cm}
+		%\includegraphics[width=3cm]{img/osm_logo.png}
+	\end{wrapfigure}
+	Utiliza tres tipos de primitivas geométricas:
+	\begin{itemize}
+		\item \textbf{Nodes}
+		\item \textbf{Ways}
+		\item \textbf{Relations}
+	\end{itemize}
+
+	\vspace{1em}
+	La información temática de cada elemento se incorpora a través de etiquetas, \textbf{<<tags>>}.
+\end{frame}
+
+\begin{frame}
+	\frametitle{Base de datos mínima}
+	\framesubtitle{Hacia un modelo de datos abierto para inventarios de carreteras}
+
+\begin{center}
+	\textbf{\underline{\textcolor{darkgreen}{Estructura de la base de datos mínima}}}
+
+	\textbf{\underline{\textcolor{darkgreen}{para implementar el modelo de datos}}}
+
+	\vspace{2em}
+	%\includegraphics[width=\textwidth]{img/database.eps}
+\end{center}
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Referencia Lineal I}
+	\framesubtitle{Hacia un modelo de datos abierto para inventarios de carreteras}
+	La \textcolor{red}{\textbf{Referencia Lineal}} es un sistema de referencia muy utilizado en carreteras, ferrocarriles y otras infraestructuras lineales para especificar la posición de determinados elementos.
+
+	\vspace{1em}
+	\begin{center}
+		%\includegraphics[width=7cm]{img/reflineal1.png}
+
+		\vspace{1em}
+		%\includegraphics[width=7cm]{img/reflineal2.png}
+	\end{center}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Referencia Lineal II}
+	\framesubtitle{Hacia un modelo de datos abierto para inventarios de carreteras}
+	La referencia lineal se puede resolver con \textcolor{red}{\textbf{diferentes esquemas de etiquetado}}
+
+	\vspace{1em}
+	\begin{center}
+		%\includegraphics[width=7cm]{img/route2.png}
+
+		\tiny{Ejemplo: <<\textit{Route}>> incluyendo el origen del tramo, para referencia lineal mediante distancias absolutas}
+
+		\vspace{2em}
+		%\includegraphics[width=7cm]{img/route1.png}
+
+		\tiny{Ejemplo: <<\textit{Route}>> incluyendo como miembros los hitos kilométricos}
+	\end{center}
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Segmentación dinámica}
+	\framesubtitle{Hacia un modelo de datos abierto para inventarios de carreteras}
+	La <<\textit{segmentación dinámica}>> se puede resolver mediante \textcolor{red}{\textbf{etiquetas temáticas}} de manera similar a como se resuelve la referencia de elementos lineales.
+
+	\begin{center}
+		\vspace{1em}
+	%\includegraphics[width=10cm]{img/segdinamica.png}
+
+	\tiny{Ejemplo de elementos <<\textit{Relation}>> para definir la anchura de un camino mediante segmentación dinámica}
+	\end{center}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Geometría: trazado en planta I}
+	\framesubtitle{Hacia un modelo de datos abierto para inventarios de carreteras}
+
+	Cada alineación del trazado en planta se puede resolver con un elemento \textit{Relation} que defina sus parámetros mediante etiquetas:
+	\begin{itemize}
+		\item etiqueta <<\textsc{type}>> con el valor <<\textit{planta}>>, que indique que se trata de una alineación del trazado en planta de la carretera
+		\item etiqueta <<\textsc{Route}>> que especifique la línea de referencia
+		\item dos etiquetas <<\textsc{PKInicio}>> y <<\textsc{PKFin}>> que indiquen los puntos de comienzo y final de la alineación
+		\item etiqueta <<\textsc{Alineacion}>> que indique cuál es el tipo de la alineación y que podrá tomar los valores <<\textit{Recta}>>, <<\textit{Clotoide}>> o <<\textit{CurvaCircular}>>
+		\item Las curvas circulares necesitan además una etiqueta <<\textsc{Radio}>> que especifique el radio de la curva.
+		\item 	Las curvas de transición necesitarían una etiqueta adicional <<\textsc{Parametro}>> con el valor del parámetro de la clotoide.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Geometría: trazado en planta II}
+	\framesubtitle{Hacia un modelo de datos abierto para inventarios de carreteras}
+
+	Con estos datos las alineaciones están geométricamente definidas, pero se podrían añadir etiquetas adicionales a las alineaciones con el valor de algunos parámetros ya calculados, por ejemplo:
+
+	\vspace{1.5em}
+	\begin{itemize}
+		\item azimut de las rectas
+		\item azimut de los puntos de entrada y salida de las curvas
+		\item coordenadas del centro de las curvas circulares
+		\item retranqueo
+		\item u otros que se quiera añadir
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{Geometría: trazado en planta II}
+	\framesubtitle{Hacia un modelo de datos abierto para inventarios de carreteras}
+
+	Una forma alternativa de definir el trazado en planta y que puede ser suficiente a los efectos de los inventarios físicos de las carreteras puede ser añadir a cada elemento \textit{Node} una etiqueta que detalle la curvatura de la carretera en dicho punto.
+
+	\vspace{1em}
+	Se podría añadir, además, una etiqueta adicional que indique si se trata de un \textit{Node} situado en una recta, en una clotoide o en una curva circular.
+
+	\vspace{1em}En el caso de las clotoides, para que quedasen totálmente definidas necesitarían además una etiqueta adicional con el valor del parámetro de la clotoide, por ejemplo.
+
+\end{frame}
+
+
+
+\begin{frame}
+	\frametitle{Geometría: Perfil longitudinal}
+	\framesubtitle{Hacia un modelo de datos abierto para inventarios de carreteras}
+
+	\begin{center}
+
+		\textbf{\underline{\textcolor{darkgreen}{Ejemplo de elementos \textit{Relation} correspondientes}}}
+
+		\textbf{\underline{\textcolor{darkgreen}{a un tramo del perfil longitudinal de una carretera}}}
+
+		%\includegraphics[width=6.5cm]{img/perfil.png}
+	\end{center}
+
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{Geometría: Sección transversal}
+	\framesubtitle{Hacia un modelo de datos abierto para inventarios de carreteras}
+
+	\begin{center}
+		%\includegraphics[width=\textwidth]{img/seccion.png}
+	\end{center}
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{Firmes, visibilidad, gálibo y otras variables}
+	\framesubtitle{Hacia un modelo de datos abierto para inventarios de carreteras}
+
+	\begin{center}
+		%\includegraphics[width=\textwidth]{img/galibo.png}
+	\end{center}
+
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{Utilización de diferentes idiomas}
+	\framesubtitle{Hacia un modelo de datos abierto para inventarios de carreteras}
+
+	\begin{center}
+		%\includegraphics[width=7cm]{img/multilanguage2.png}
+	\end{center}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Relación con BIM}
+	\framesubtitle{Hacia un modelo de datos abierto para inventarios de carreteras}
+
+\textbf{IFC, short for <<Industry Foundation Classes>>, or more informally <<Information for Construction>> describes how to represent buildings and civil infrastructure in a digital format.}
+
+\vspace{1em}
+\begin{center}
+	\textcolor{blue}{\textbf{\url{http://www.buildingsmart-tech.org/ifc/}}}
+
+	\vspace{1em}
+	%\includegraphics[width=8cm]{img/bim.png}
+
+\end{center}
+\end{frame}
+
+\begin{frame}
+
+	\begin{center}
+		%\includegraphics[width=\textwidth]{img/end.png}
+	\end{center}
+
+\end{frame}
+
+\end{document}

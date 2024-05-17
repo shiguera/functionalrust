@@ -1,0 +1,1646 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="493.7373mm"
+   height="173.82632mm"
+   viewBox="0 0 493.7373 173.82632"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="memoria_2.svg"
+   inkscape:export-filename="/home/shiguera/Almacenamiento/ownCloud/articles/2020/LibroRust/img/memoria.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible;"
+       id="marker6990"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path6988" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="marker6978"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path6976" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke:context-stroke;fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round;"
+         id="path6243" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="marker6685"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path6683" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="marker6560"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path6558" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path6225" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) translate(10,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path6222" />
+    </marker>
+    <marker
+       inkscape:stockid="EmptyDiamondMend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="EmptyDiamondMend"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1155"
+         d="M 0,-7.0710768 L -7.0710894,0 L 0,7.0710589 L 7.0710462,0 L 0,-7.0710768 z "
+         style="fill-rule:evenodd;fill:#ffffff;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.4) translate(-6.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker1352"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1350"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8)" />
+    </marker>
+    <marker
+       inkscape:stockid="EmptyDiamondMstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="EmptyDiamondMstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1146"
+         d="M 0,-7.0710768 L -7.0710894,0 L 0,7.0710589 L 7.0710462,0 L 0,-7.0710768 z "
+         style="fill-rule:evenodd;fill:#ffffff;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.4) translate(6.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="TriangleOutL"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1170"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleInL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleInL"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path986"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(-0.8)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1322"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutL">
+      <path
+         transform="scale(0.8)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path1320"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1116"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path856"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path848"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1108"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path866"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1165"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1163"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path878"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.4894235"
+     inkscape:cx="840.78513"
+     inkscape:cy="569.03684"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:snap-global="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(496.29035,22.948584)">
+    <rect
+       y="-22.679846"
+       x="-359.25058"
+       height="26.551184"
+       width="152.29276"
+       id="rect851"
+       style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.53747571;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_segmentos.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.66408062;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect815"
+       width="152.29276"
+       height="40.532913"
+       x="-359.25058"
+       y="3.8713379"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_segmentos.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-308.29749"
+       y="-7.0279202"
+       id="text819"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_segmentos.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan817"
+         x="-308.29749"
+         y="-7.0279202"
+         style="font-size:7.76111126px;stroke-width:0.26458332">Pila (Stack)</tspan></text>
+    <rect
+       y="44.404251"
+       x="-359.25058"
+       height="26.551184"
+       width="152.29276"
+       id="rect821"
+       style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.53747571;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_segmentos.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       id="text825"
+       y="59.976345"
+       x="-354.86038"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_segmentos.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         style="font-size:7.76111126px;stroke-width:0.26458332"
+         y="59.976345"
+         x="-354.86038"
+         id="tspan823"
+         sodipodi:role="line">Datos dinámicos. Montón (Heap)</tspan></text>
+    <rect
+       y="70.955437"
+       x="-359.25058"
+       height="26.551184"
+       width="152.29276"
+       id="rect827"
+       style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.53747571;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_segmentos.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       id="text831"
+       y="86.665649"
+       x="-317.17465"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_segmentos.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         style="font-size:7.76111126px;stroke-width:0.26458332"
+         y="86.665649"
+         x="-317.17465"
+         id="tspan829"
+         sodipodi:role="line">Datos estáticos</tspan></text>
+    <rect
+       style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.53747571;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect833"
+       width="152.29276"
+       height="26.551184"
+       x="-359.25058"
+       y="97.506615"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_segmentos.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-302.37054"
+       y="113.23514"
+       id="text837"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_segmentos.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan835"
+         x="-302.37054"
+         y="113.23514"
+         style="font-size:7.76111126px;stroke-width:0.26458332">Literales</tspan></text>
+    <rect
+       style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.53747571;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect839"
+       width="152.29276"
+       height="26.551184"
+       x="-359.25058"
+       y="124.05782"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_segmentos.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-312.62521"
+       y="139.80461"
+       id="text843"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_segmentos.png"><tspan
+         sodipodi:role="line"
+         id="tspan841"
+         x="-312.62521"
+         y="139.80461"
+         style="font-size:7.76111126px;stroke-width:0.26458332">Instrucciones</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1322)"
+       d="M -247.19643,-2.7351193 V 15.407738"
+       id="path853"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_segmentos.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path855"
+       d="M -247.19643,33.361607 V 51.504464"
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#TriangleInL)"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_segmentos.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-496.79678"
+       y="-7.5063691"
+       id="text1512"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_segmentos.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1510"
+         x="-496.79678"
+         y="-7.5063691"
+         style="font-size:7.05555534px;stroke-width:0.26458332">Lectura-Escritura. No ejecutable</tspan></text>
+    <text
+       id="text1516"
+       y="59.594009"
+       x="-496.79678"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_segmentos.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         style="font-size:7.05555534px;stroke-width:0.26458332"
+         y="59.594009"
+         x="-496.79678"
+         id="tspan1514"
+         sodipodi:role="line">Lectura-Escritura. No ejecutable</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-496.79678"
+       y="86.151642"
+       id="text1520"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_segmentos.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1518"
+         x="-496.79678"
+         y="86.151642"
+         style="font-size:7.05555534px;stroke-width:0.26458332">Lectura-Escritura. No ejecutable</tspan></text>
+    <text
+       id="text1524"
+       y="112.70927"
+       x="-496.79678"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_segmentos.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         style="font-size:7.05555534px;stroke-width:0.26458332"
+         y="112.70927"
+         x="-496.79678"
+         id="tspan1522"
+         sodipodi:role="line">Solo Lectura. No ejecutable</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-496.79678"
+       y="139.26692"
+       id="text1528"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_segmentos.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1526"
+         x="-496.79678"
+         y="139.26692"
+         style="font-size:7.05555534px;stroke-width:0.26458332">Solo Lectura. Ejecutable</tspan></text>
+    <text
+       id="text1536"
+       y="-7.5063691"
+       x="-192.52596"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_segmentos.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         style="font-size:7.05555534px;stroke-width:0.26458332"
+         y="-7.5063691"
+         x="-192.52596"
+         id="tspan1534"
+         sodipodi:role="line">Gestionada automaticamente por el compilador</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-192.52596"
+       y="59.594009"
+       id="text1540"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_segmentos.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1538"
+         x="-192.52596"
+         y="59.594009"
+         style="font-size:7.05555534px;stroke-width:0.26458332">Gestionada por el programador</tspan></text>
+    <text
+       id="text1544"
+       y="86.151642"
+       x="-192.52596"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_segmentos.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         style="font-size:7.05555534px;stroke-width:0.26458332"
+         y="86.151642"
+         x="-192.52596"
+         id="tspan1542"
+         sodipodi:role="line">Inicializada al arrancar el proceso</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-192.52596"
+       y="112.70927"
+       id="text1548"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_segmentos.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1546"
+         x="-192.52596"
+         y="112.70927"
+         style="font-size:7.05555534px;stroke-width:0.26458332">Inicializada al arrancar el proceso</tspan></text>
+    <text
+       id="text1552"
+       y="139.26692"
+       x="-192.52596"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_segmentos.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         style="font-size:7.05555534px;stroke-width:0.26458332"
+         y="139.26692"
+         x="-192.52596"
+         id="tspan1550"
+         sodipodi:role="line">Inicializada al arrancar el proceso</tspan></text>
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0654361;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect872"
+       width="33.797832"
+       height="10.208085"
+       x="-636.43719"
+       y="230.40778"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-633.07153"
+       y="237.0249"
+       id="text876"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         sodipodi:role="line"
+         id="tspan874"
+         x="-633.07153"
+         y="237.0249"
+         style="stroke-width:0.264583">Puntero</tspan></text>
+    <rect
+       y="230.40082"
+       x="-602.6463"
+       height="10.21272"
+       width="14.890686"
+       id="rect878"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0434439;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png" />
+    <text
+       id="text882"
+       y="185.06572"
+       x="-491.80783"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         y="188.81123"
+         x="-491.80783"
+         id="tspan880"
+         sodipodi:role="line"
+         style="stroke-width:0.26458332" /></text>
+    <rect
+       y="240.61586"
+       x="-636.43719"
+       height="10.208085"
+       width="33.797832"
+       id="rect884"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0654361;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png" />
+    <text
+       id="text888"
+       y="247.23299"
+       x="-633.07153"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         style="stroke-width:0.264583"
+         y="247.23299"
+         x="-633.07153"
+         id="tspan886"
+         sodipodi:role="line">Tamaño</tspan></text>
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0434439;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect890"
+       width="14.890686"
+       height="10.21272"
+       x="-602.6463"
+       y="240.61354"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-596.68927"
+       y="247.23299"
+       id="text894"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         sodipodi:role="line"
+         id="tspan892"
+         x="-596.68927"
+         y="247.23299"
+         style="stroke-width:0.264583">4</tspan></text>
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0654361;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect896"
+       width="33.797832"
+       height="10.208085"
+       x="-636.43719"
+       y="250.82394"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-633.07153"
+       y="257.44107"
+       id="text900"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         sodipodi:role="line"
+         id="tspan898"
+         x="-633.07153"
+         y="257.44107"
+         style="stroke-width:0.264583">Capacidad</tspan></text>
+    <rect
+       y="250.82626"
+       x="-602.6463"
+       height="10.21272"
+       width="14.890686"
+       id="rect902"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0434439;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png" />
+    <text
+       id="text906"
+       y="257.44107"
+       x="-596.68927"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         style="stroke-width:0.264583"
+         y="257.44107"
+         x="-596.68927"
+         id="tspan904"
+         sodipodi:role="line">4</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot908"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:bold;font-size:16px;line-height:1.25;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:'sans-serif Bold';font-stretch:normal;font-variant:normal"><flowRegion
+         id="flowRegion910"><rect
+           id="rect912"
+           width="136.89575"
+           height="160.90359"
+           x="-4.0864406"
+           y="745.35065" /></flowRegion><flowPara
+         id="flowPara914" /></flowRoot>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-617.51898"
+       y="226.2213"
+       id="text918"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         sodipodi:role="line"
+         id="tspan916"
+         x="-617.51898"
+         y="226.2213"
+         style="stroke-width:0.264583">cad_1</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.773856;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -492.31477,194.53658 v 120.1764"
+       id="path920"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png" />
+    <text
+       id="text924"
+       y="209.4706"
+       x="-620.49231"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         style="font-size:6.35px;stroke-width:0.264583"
+         y="209.4706"
+         x="-620.49231"
+         id="tspan922"
+         sodipodi:role="line">Stack</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-551.2674"
+       y="208.41228"
+       id="text928"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         sodipodi:role="line"
+         id="tspan926"
+         x="-551.2674"
+         y="208.41228"
+         style="font-size:6.35px;stroke-width:0.264583">Head</tspan></text>
+    <rect
+       y="215.96724"
+       x="-564.242"
+       height="10.214096"
+       width="27.857222"
+       id="rect930"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0594251;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png" />
+    <text
+       id="text934"
+       y="222.58737"
+       x="-561.50031"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         style="stroke-width:0.264583"
+         y="222.58737"
+         x="-561.50031"
+         id="tspan932"
+         sodipodi:role="line">Dirección</tspan></text>
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0595451;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect936"
+       width="27.984184"
+       height="10.208852"
+       x="-536.38477"
+       y="215.96724"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-551.78613"
+       y="232.79546"
+       id="text942"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         sodipodi:role="line"
+         id="tspan940"
+         x="-551.78613"
+         y="232.79546"
+         style="stroke-width:0.264583">0</tspan></text>
+    <text
+       id="text948"
+       y="232.79546"
+       x="-524.16418"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         style="stroke-width:0.264583"
+         y="232.79546"
+         x="-524.16418"
+         id="tspan946"
+         sodipodi:role="line">H</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-534.57074"
+       y="222.58737"
+       id="text964"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         sodipodi:role="line"
+         id="tspan962"
+         x="-534.57074"
+         y="222.58737"
+         style="stroke-width:0.264583">Contenido</tspan></text>
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0594251;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect974"
+       width="27.857222"
+       height="10.214096"
+       x="-564.242"
+       y="226.17609"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png" />
+    <rect
+       y="226.17609"
+       x="-536.38477"
+       height="10.208852"
+       width="27.984184"
+       id="rect976"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0595451;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png" />
+    <text
+       id="text980"
+       y="243.00955"
+       x="-551.78613"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         style="stroke-width:0.264583"
+         y="243.00955"
+         x="-551.78613"
+         id="tspan978"
+         sodipodi:role="line">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-523.84686"
+       y="243.00955"
+       id="text984"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         sodipodi:role="line"
+         id="tspan982"
+         x="-523.84686"
+         y="243.00955"
+         style="stroke-width:0.264583">o</tspan></text>
+    <rect
+       y="236.39018"
+       x="-564.242"
+       height="10.214096"
+       width="27.857222"
+       id="rect986"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0594251;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0595451;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect988"
+       width="27.984184"
+       height="10.208852"
+       x="-536.38477"
+       y="236.39018"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png" />
+    <text
+       id="text992"
+       y="253.22365"
+       x="-551.78613"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         style="stroke-width:0.264583"
+         y="253.22365"
+         x="-551.78613"
+         id="tspan990"
+         sodipodi:role="line">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-523.11823"
+       y="253.22365"
+       id="text996"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         sodipodi:role="line"
+         id="tspan994"
+         x="-523.11823"
+         y="253.22365"
+         style="stroke-width:0.264583">l</tspan></text>
+    <rect
+       y="246.60428"
+       x="-564.242"
+       height="10.214096"
+       width="27.857222"
+       id="rect998"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0594251;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0595451;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1000"
+       width="27.984184"
+       height="10.208852"
+       x="-536.38477"
+       y="246.60428"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-551.78613"
+       y="263.43774"
+       id="text1004"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         sodipodi:role="line"
+         id="tspan1002"
+         x="-551.78613"
+         y="263.43774"
+         style="stroke-width:0.264583">3</tspan></text>
+    <text
+       id="text1008"
+       y="263.43774"
+       x="-523.74561"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         style="stroke-width:0.264583"
+         y="263.43774"
+         x="-523.74561"
+         id="tspan1006"
+         sodipodi:role="line">a</tspan></text>
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0594251;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1010"
+       width="27.857222"
+       height="10.214096"
+       x="-564.242"
+       y="256.81839"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png" />
+    <rect
+       y="256.81839"
+       x="-536.38477"
+       height="10.208852"
+       width="27.984184"
+       id="rect1012"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0595451;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#EmptyDiamondMend);marker-end:url(#marker1352)"
+       d="m -595.58624,235.45351 35.74162,-3.24924"
+       id="path1348"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png" />
+    <rect
+       style="opacity:1;fill:#d0d6d0;fill-opacity:1;stroke:#000000;stroke-width:0.0654361;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1440"
+       width="33.797832"
+       height="10.208085"
+       x="-475.16986"
+       y="228.9202"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-471.8042"
+       y="235.53751"
+       id="text1444"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         sodipodi:role="line"
+         id="tspan1442"
+         x="-471.8042"
+         y="235.53751"
+         style="stroke-width:0.264583">Puntero</tspan></text>
+    <rect
+       y="228.91324"
+       x="-441.37897"
+       height="10.21272"
+       width="14.890686"
+       id="rect1446"
+       style="opacity:1;fill:#d0d6d0;fill-opacity:1;stroke:#000000;stroke-width:0.0434439;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png" />
+    <rect
+       y="239.12857"
+       x="-475.16986"
+       height="10.208085"
+       width="33.797832"
+       id="rect1448"
+       style="opacity:1;fill:#d0d6d0;fill-opacity:1;stroke:#000000;stroke-width:0.0654361;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png" />
+    <text
+       id="text1452"
+       y="245.74591"
+       x="-471.8042"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         style="stroke-width:0.264583"
+         y="245.74591"
+         x="-471.8042"
+         id="tspan1450"
+         sodipodi:role="line">Tamaño</tspan></text>
+    <rect
+       style="opacity:1;fill:#d0d6d0;fill-opacity:1;stroke:#000000;stroke-width:0.0434439;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1454"
+       width="14.890686"
+       height="10.21272"
+       x="-441.37897"
+       y="239.12625"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-435.42191"
+       y="245.74591"
+       id="text1458"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         sodipodi:role="line"
+         id="tspan1456"
+         x="-435.42191"
+         y="245.74591"
+         style="stroke-width:0.264583">4</tspan></text>
+    <rect
+       style="opacity:1;fill:#d0d6d0;fill-opacity:1;stroke:#000000;stroke-width:0.0654361;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1460"
+       width="33.797832"
+       height="10.208085"
+       x="-475.16986"
+       y="249.33694"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-471.8042"
+       y="255.95428"
+       id="text1464"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         sodipodi:role="line"
+         id="tspan1462"
+         x="-471.8042"
+         y="255.95428"
+         style="stroke-width:0.264583">Capacidad</tspan></text>
+    <rect
+       y="249.33926"
+       x="-441.37897"
+       height="10.21272"
+       width="14.890686"
+       id="rect1466"
+       style="opacity:1;fill:#d0d6d0;fill-opacity:1;stroke:#000000;stroke-width:0.0434439;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png" />
+    <text
+       id="text1470"
+       y="255.95428"
+       x="-435.42191"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         style="stroke-width:0.264583"
+         y="255.95428"
+         x="-435.42191"
+         id="tspan1468"
+         sodipodi:role="line">4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-456.25165"
+       y="224.73361"
+       id="text1474"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         sodipodi:role="line"
+         id="tspan1472"
+         x="-456.25165"
+         y="224.73361"
+         style="stroke-width:0.264583">cad_1</tspan></text>
+    <text
+       id="text1480"
+       y="207.98242"
+       x="-459.22495"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         style="font-size:6.35px;stroke-width:0.264583"
+         y="207.98242"
+         x="-459.22495"
+         id="tspan1478"
+         sodipodi:role="line">Stack</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-390.00003"
+       y="206.92407"
+       id="text1484"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         sodipodi:role="line"
+         id="tspan1482"
+         x="-390.00003"
+         y="206.92407"
+         style="font-size:6.35px;stroke-width:0.264583">Head</tspan></text>
+    <rect
+       y="235.64624"
+       x="-402.97464"
+       height="10.214096"
+       width="27.857222"
+       id="rect1486"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0594251;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png" />
+    <text
+       id="text1490"
+       y="242.26657"
+       x="-400.23294"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         style="stroke-width:0.264583"
+         y="242.26657"
+         x="-400.23294"
+         id="tspan1488"
+         sodipodi:role="line">Dirección</tspan></text>
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0595451;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1492"
+       width="27.984184"
+       height="10.208852"
+       x="-375.11743"
+       y="235.64624"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-390.5188"
+       y="252.47495"
+       id="text1496"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         sodipodi:role="line"
+         id="tspan1494"
+         x="-390.5188"
+         y="252.47495"
+         style="stroke-width:0.264583">0</tspan></text>
+    <text
+       id="text1500"
+       y="252.47495"
+       x="-362.89682"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         style="stroke-width:0.264583"
+         y="252.47495"
+         x="-362.89682"
+         id="tspan1498"
+         sodipodi:role="line">H</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-373.30341"
+       y="242.26657"
+       id="text1504"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         sodipodi:role="line"
+         id="tspan1502"
+         x="-373.30341"
+         y="242.26657"
+         style="stroke-width:0.264583">Contenido</tspan></text>
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0594251;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1506"
+       width="27.857222"
+       height="10.214096"
+       x="-402.97464"
+       y="245.85538"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png" />
+    <rect
+       y="245.85538"
+       x="-375.11743"
+       height="10.208852"
+       width="27.984184"
+       id="rect1508"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0595451;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png" />
+    <text
+       id="text1513"
+       y="262.68933"
+       x="-390.5188"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         style="stroke-width:0.264583"
+         y="262.68933"
+         x="-390.5188"
+         id="tspan1511"
+         sodipodi:role="line">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-362.57953"
+       y="262.68933"
+       id="text1517"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         sodipodi:role="line"
+         id="tspan1515"
+         x="-362.57953"
+         y="262.68933"
+         style="stroke-width:0.264583">o</tspan></text>
+    <rect
+       y="256.06976"
+       x="-402.97464"
+       height="10.214096"
+       width="27.857222"
+       id="rect1519"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0594251;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0595451;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1521"
+       width="27.984184"
+       height="10.208852"
+       x="-375.11743"
+       y="256.06976"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png" />
+    <text
+       id="text1525"
+       y="272.90372"
+       x="-390.5188"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         style="stroke-width:0.264583"
+         y="272.90372"
+         x="-390.5188"
+         id="tspan1523"
+         sodipodi:role="line">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-361.85089"
+       y="272.90372"
+       id="text1529"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         sodipodi:role="line"
+         id="tspan1527"
+         x="-361.85089"
+         y="272.90372"
+         style="stroke-width:0.264583">l</tspan></text>
+    <rect
+       y="266.28415"
+       x="-402.97464"
+       height="10.214096"
+       width="27.857222"
+       id="rect1531"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0594251;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0595451;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1533"
+       width="27.984184"
+       height="10.208852"
+       x="-375.11743"
+       y="266.28415"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-390.5188"
+       y="283.1181"
+       id="text1537"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         sodipodi:role="line"
+         id="tspan1535"
+         x="-390.5188"
+         y="283.1181"
+         style="stroke-width:0.264583">3</tspan></text>
+    <text
+       id="text1541"
+       y="283.1181"
+       x="-362.47824"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         style="stroke-width:0.264583"
+         y="283.1181"
+         x="-362.47824"
+         id="tspan1539"
+         sodipodi:role="line">a</tspan></text>
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0594251;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1543"
+       width="27.857222"
+       height="10.214096"
+       x="-402.97464"
+       y="276.49857"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png" />
+    <rect
+       y="276.49857"
+       x="-375.11743"
+       height="10.208852"
+       width="27.984184"
+       id="rect1545"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0595451;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0654361;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1549"
+       width="33.797832"
+       height="10.208085"
+       x="-475.16986"
+       y="277.60428"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-471.8042"
+       y="284.22159"
+       id="text1553"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         sodipodi:role="line"
+         id="tspan1551"
+         x="-471.8042"
+         y="284.22159"
+         style="stroke-width:0.264583">Puntero</tspan></text>
+    <rect
+       y="277.59732"
+       x="-441.37897"
+       height="10.21272"
+       width="14.890686"
+       id="rect1555"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0434439;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png" />
+    <rect
+       y="287.81265"
+       x="-475.16986"
+       height="10.208085"
+       width="33.797832"
+       id="rect1557"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0654361;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png" />
+    <text
+       id="text1561"
+       y="294.42999"
+       x="-471.8042"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         style="stroke-width:0.264583"
+         y="294.42999"
+         x="-471.8042"
+         id="tspan1559"
+         sodipodi:role="line">Tamaño</tspan></text>
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0434439;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1563"
+       width="14.890686"
+       height="10.21272"
+       x="-441.37897"
+       y="287.81033"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-435.42191"
+       y="294.42999"
+       id="text1567"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         sodipodi:role="line"
+         id="tspan1565"
+         x="-435.42191"
+         y="294.42999"
+         style="stroke-width:0.264583">4</tspan></text>
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0654361;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1569"
+       width="33.797832"
+       height="10.208085"
+       x="-475.16986"
+       y="298.02103"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-471.8042"
+       y="304.63837"
+       id="text1573"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         sodipodi:role="line"
+         id="tspan1571"
+         x="-471.8042"
+         y="304.63837"
+         style="stroke-width:0.264583">Capacidad</tspan></text>
+    <rect
+       y="298.02335"
+       x="-441.37897"
+       height="10.21272"
+       width="14.890686"
+       id="rect1575"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0434439;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png" />
+    <text
+       id="text1579"
+       y="304.63837"
+       x="-435.42191"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         style="stroke-width:0.264583"
+         y="304.63837"
+         x="-435.42191"
+         id="tspan1577"
+         sodipodi:role="line">4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-456.25165"
+       y="273.41769"
+       id="text1583"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"><tspan
+         sodipodi:role="line"
+         id="tspan1581"
+         x="-456.25165"
+         y="273.41769"
+         style="stroke-width:0.264583">cad_2</tspan></text>
+    <path
+       style="fill:none;fill-opacity:0.822491;stroke:#000000;stroke-width:0.165;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:0.165, 0.99;stroke-dashoffset:0;marker-end:url(#marker6978)"
+       d="m -433.89482,234.5767 29.47684,14.83736"
+       id="path6974"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;fill-opacity:0.822491;stroke:#000000;stroke-width:0.465;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker6990)"
+       d="m -434.47269,282.61496 29.29839,-30.19283"
+       id="path6986"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#f80000;stroke-width:0.465;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -473.62967,219.02524 49.2612,45.66142"
+       id="path7335"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#f80000;stroke-width:0.465;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -477.26976,264.94685 52.76877,-47.04115"
+       id="path7535"
+       inkscape:export-filename="/home/santiago/ownCloud/Teleco_2023-24/CursoICE/tex/img/memoria_1.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+</svg>

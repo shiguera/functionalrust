@@ -1,0 +1,201 @@
+\documentclass[a4paper,11pt]{extarticle}
+
+\usepackage{cursoice}
+
+% ----------------------------------------------
+% custom title
+% ----------------------------------------------
+\makeatletter
+\renewcommand*{\maketitle}{%
+\noindent
+\begin{minipage}{0.2\textwidth}
+	\includegraphics[width=\textwidth]{img/logo_dte.png}
+\end{minipage}
+\hspace{1em}
+\begin{minipage}{0.56\textwidth}
+	\begin{tikzpicture}
+	\node[rectangle,rounded corners=6pt,inner sep=10pt,fill=blue!50!black,text width= 0.95\textwidth] {\color{white} {\Huge \@title} \\ {\Large}};
+	\end{tikzpicture}
+\end{minipage}
+\hspace{1em}
+\begin{minipage}{0.1\textwidth}
+	\includegraphics[width=\textwidth]{img/logo_teleco_2.png}
+\end{minipage}
+\hfill
+\bigskip\bigskip
+}%
+\makeatother
+% ------------------------------------------------
+
+% ------------------------------------------------
+% custom section
+% ------------------------------------------------
+\usepackage[explicit]{titlesec}
+\newcommand*\sectionlabel{}
+\titleformat{\section}
+  {\gdef\sectionlabel{}
+   \normalfont\sffamily\Large\bfseries\scshape}
+  {\gdef\sectionlabel{\thesection\ }}{0pt}
+  {
+\noindent
+\begin{tikzpicture}
+\node[rectangle,rounded corners=3pt,inner sep=4pt,fill=blue!50!black,text width= 0.95\columnwidth] {\color{white}\sectionlabel#1};
+\end{tikzpicture}
+  }
+\titlespacing*{\section}{0pt}{15pt}{2pt}
+% -----------------------------------------------
+
+% -----------------------------------------------
+% custom footer
+% -----------------------------------------------
+\usepackage{fancyhdr}
+\makeatletter
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot[C]{\footnotesize  \@date\ \ \@author}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\makeatother
+% -----------------------------------------------
+
+
+\title{Introducción a la \\ programación funcional}
+\author{Santiago Higuera. Universidad Politécnica de Madrid}
+\date{\today}
+
+
+\newcommand{\raya}{
+	\vspace{0.5em}
+	{\centering \rule{10cm}{0.1mm} \par}
+	\vspace{0.5em}
+}
+
+\begin{document}
+
+\maketitle
+
+{\centering \footnotesize \textbf{\color{red}(Versión de fecha  \today)} \par}
+
+
+%\setcounter{tocdepth}{1}
+%\vspace*{3em}
+%\tableofcontents
+
+%\vfill
+\begin{Resumen}
+Se desarrrolla a continuación un ejercicio que de manera progresiva irá introduciendo los conceptos aprendidos en la parte teórica de este curso.
+
+\end{Resumen}
+
+\section{Introducción}
+Para desarrollar el aprendizaje de la codificación de programas en lenguaje Rust y los principios de programación funcional que se han desarrollado en la parte teórica del curso, se plantea un ejercicio que se irá resolviendo por pasos sucesivos.
+
+Se supone que se está desarrollando el software de gestión de una editorial de libros que recibe libros de los autores y los añade a su catálogo.
+
+Cada libro se simboliza por una estructura cuyos campos son el título, que es un String, el identificador del autor y el número de páginas, ambos representados con un entero del tipo \textit{u32}. El código correspondiente sería el siguiente:
+
+\begin{Codigo2}
+
+\end{Codigo2}
+
+\section{Creación del proyecto}
+Se deberá situar en el directorio de sus proyectos y crear un nuevo proyecto Rust. Hemos decidido que el proyecto tenga la estructura de una librería por lo que la orden a ejecutar desde la consola será la siguiente:
+
+\vspace{0.7em}
+\begin{Codigo2}
+cargo new --lib editorial
+\end{Codigo2}
+
+Si abre el proyecto con el IDE que esté utilizando y abre el fichero \textit{src/lib.rs} verá un código similar al siguiente:
+
+\vspace{0.7em}
+\begin{Codigo2}
+pub fn add(left: usize, right: usize) -> usize {
+   left + right
+}
+
+#[cfg(test)]
+mod tests {
+   use super::*;
+	
+   #[test]
+   fn it_works() {
+      let result = add(2, 2);
+      assert_eq!(result, 4);
+   }
+}
+\end{Codigo2}
+
+La librería recién creada consta de una función \textit{add()}, que realiza la suma de dos números enteros \textit{usize} y un test que permite probar la función. Para ejecutar el test debe teclear:
+
+\vspace{0.7em}
+\begin{Codigo2}
+cargo test --lib
+\end{Codigo2}
+
+Obtendrá la salida correspondiente a la ejecución del test que, si todo ha ido bien, indicará que el test ha dado resultado correcto:
+
+\vspace{0.7em}
+\begin{Codigo2}
+running 1 test
+test tests::it_works ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored;
+\end{Codigo2}
+
+\section{Creación de los tipos de datos usados por el proyecto}
+A continuación, dentro del fichero \textit{lib.rs}, vamos a crear las estructuras que se utilizarán como tipos de datos del proyecto. Añada el siguiente código al principio del fichero \textit{lib.rs}:
+
+\vspace{0.7em}
+\begin{Codigo2}
+#[derive(Debug)]
+struct Libro {
+    titulo: String,
+    id_autor: u32,
+    num_paginas: u32
+}
+#[derive(Debug)]
+struct Autor {
+    id_autor: u32,
+    nombre: String,
+}
+\end{Codigo2}
+
+Recuerde que la etiqueta \textit{\#[derive(Debug)]} permite imprimir las estructuras utilizando el especificador de formato \textit{{:?}}.
+
+Podemos crear algún test que nos permita probar las estructuras recién creadas. Teclee los siguientes test dentro del módulo \textit{tests} del fichero \textit{lib.rs}:
+
+\vspace{0.7em}
+\begin{Codigo2}
+#[test]
+fn test_libro() {
+    let libro = Libro{titulo: String::from("Programación en Rust"),
+        id_autor: 1, num_paginas: 228};
+    assert_eq!(libro.titulo, "Programación en Rust");
+    assert_eq!(libro.id_autor, 1);
+    assert_eq!(libro.num_paginas, 228);
+}
+#[test]
+fn test_autor() {
+    let autor = Autor {id_autor: 1,
+        nombre: String::from("Santiago Higuera")};
+    assert_eq!(autor.nombre, "Santiago Higuera");
+    assert_eq!(autor.id_autor, 1);
+}    
+\end{Codigo2}
+
+Puede aprovechar ya para borrar el código de la función \textit{add()} y el del test \textit{it\_workds()}. Recuerde que la etiqueta \textit{\#[test]} es necesaria para indicar que determinada función es un test y se debe ejecutar al utilizar la orden \textit{cargo test}. Puede comprobar los test recién creados con la orden:
+
+\vspace{0.7em}
+\begin{Codigo2}
+cargo test --lib
+\end{Codigo2}
+
+Si todo ha ido bien, recibirá en la consola un mensaje indicándolo.
+
+
+
+
+
+\bibliography{Mibiblioteca}
+\end{document}

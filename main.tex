@@ -1,0 +1,148 @@
+% Fichero principal para libro de MATLAB y Octave para editorial Garceta
+\documentclass[11pt, table]{book}
+
+% -----------------------------------------------
+% Título y autor
+% -----------------------------------------------
+\title{Introducción a la programación funcional}
+\author{Santiago Higuera de Frutos \\ \vspace{1em}\small Universidad Politécnica de Madrid}
+\date{ 
+	\begin{center}
+		\includegraphics[width=0.3\textwidth]{img/Rustacean-orig-noshadow.png}
+	\end{center}
+%	\begin{center}
+%		\includegraphics[width=0.25\textwidth]{img/rust-logo.png}
+%	\end{center}
+   \begin{center}
+      \footnotesize \textbf{\color{red}(Versión de fecha  \today)}
+   \end{center}
+}
+
+% Fichero de estilo para este libro
+\usepackage{../../garceta_2024}
+\usepackage{../../codeboxes}
+
+
+
+% -----------------------------------------------
+% Inicio del documento
+% -----------------------------------------------
+\begin{document}
+\lstset{language=Rust, style=colouredRust}
+
+\pagestyle{empty}
+
+\begin{center}
+   \includegraphics[width=\textwidth]{img/banner_ice.png}
+\end{center}
+
+{\centering \vspace{5em} \Huge\bfseries  Introducción a la programación funcional \par}
+
+{\vspace{2em} \centering Santiago Higuera de Frutos \par}
+
+{\centering \small Universidad Politécnica de Madrid \par}
+
+\begin{center}
+   \includegraphics[width=0.3\textwidth]{img/Rustacean-orig-noshadow.png}
+\end{center}
+%	\begin{center}
+   %		\includegraphics[width=0.25\textwidth]{img/rust-logo.png}
+   %	\end{center}
+\begin{center}
+   \footnotesize \textbf{\color{red}(Versión de fecha  \today)}
+\end{center}
+
+
+%\maketitle
+
+
+\blankpage
+%\pagestyle{fancy}
+% -----------------------------------
+% Dedicatoria
+\pagestyle{empty}
+
+\vfill
+\begin{flushright}
+\begin{minipage}{0.7\textwidth}
+\begin{flushright}
+\footnotesize
+\textit{A los alumnos y profesores de la Universidad Politécnica de Madrid y al oficio de profesor, que tan pocos reconocimientos recibe, a pesar de su importancia en la creación de una sociedad mejor.} \\
+\textbf{Santiago}
+\end{flushright}
+\end{minipage}
+\end{flushright}
+
+\blankpage
+
+
+% -----------------------------------
+% Tablas de contenidos
+\dominitoc
+\setcounter{tocdepth}{1} % Índice con secciones
+\pagestyle{indice}
+\renewcommand{\thepage}{\roman{page}}
+\setcounter{page}{7}
+{\small
+	\tableofcontents
+}
+\vfill\null
+\pagebreak
+
+\blankpage
+% ------------------------------------
+% Prólogo
+% ------------------------------------
+\pagestyle{empty}
+\input{caps_intro}
+%\input{caps_intro_instalacion}
+
+\vfill\null
+\pagebreak
+
+% -----------------------------------
+% Acerca de los autores
+\thispagestyle{vacio}
+{\centering \huge\textbf{Acerca del autor}\par}
+\vspace{6em}
+
+\begin{minipage}{0.9\textwidth}
+	\setlength{\parindent}{0pt}
+	
+	{\centering\large\textbf{Santiago Higuera de Frutos} \par}
+	\vspace{1em}
+	
+	\begin{wrapfigure}{l}{0.4\textwidth} 
+		\centering\vspace{-0.5\baselineskip}
+		\includegraphics[width=0.4\textwidth]{img/FotoSantiago_bw.jpg}
+	\end{wrapfigure}
+	
+	Doctor Ingeniero de Caminos por la Universidad Politécnica de Madrid (UPM). Ha sido profesor en la Escuela de Ingenieros de Caminos y actualmente en Teleco Campus Sur. Es autor de los libros ``\textit{Programacion en Rust}'' y  ``Programación y métodos numéricos para Ingeniería con MATLAB y Octave'', publicados por la Editorial Garceta, así como de numerosos artículos y conferencias sobre programación, geometría de las carreteras y simuladores de conducción, todo ello en el ámbito del software de código abierto. 
+\end{minipage}
+
+\blankpage
+
+\cftpagenumbersoff{section} % Suprime los números de página en las minitablas de contenido generadas con el paquete minitoc. Debido a las interacciones entre tocloft y minitoc, hay que hacerlo desde aquí y no funciona la orden de minitoc \mtcsetpagenumbers{minitoc}{off}. Además, hay que dar la orden después de haber generado el \tableofcontents
+
+\setcounter{minitocdepth}{1} % Índices de los capítulos solo con secciones
+% ------------------------------------
+
+% ------------------------------------
+% Capítulos
+% ------------------------------------
+\pagestyle{fancy}
+\renewcommand{\thepage}{\arabic{page}}
+\setcounter{page}{1}
+
+\input{caps_1}
+\input{caps_2}
+\input{caps_3_end}
+
+%\input{apendices}
+
+\pagestyle{empty}
+\bibliography{../../Mibiblioteca.bib}
+
+
+\end{document}
+

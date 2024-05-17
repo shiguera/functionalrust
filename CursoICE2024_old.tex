@@ -1,0 +1,52 @@
+\documentclass[a4paper,11pt]{book}
+%\documentclass[a4paper,11pt]{extarticle}
+
+\usepackage{cursoice}
+\title{Introducción a la \\ programación funcional}
+\author{Santiago Higuera. Universidad Politécnica de Madrid}
+\date{\today}
+
+\begin{document}
+
+
+\maketitle
+
+
+
+
+% -----------------------------------
+% Tablas de contenidos
+\dominitoc
+\setcounter{tocdepth}{1} % Índice con secciones
+\pagestyle{indice}
+\renewcommand{\thepage}{\roman{page}}
+\setcounter{page}{7}
+{\small
+    \tableofcontents
+}
+\vfill\null
+\pagebreak
+Codigo2
+\cftpagenumbersoff{section} % Suprime los números de página en las minitablas de contenido generadas con el paquete minitoc. Debido a las interacciones entre tocloft y minitoc, hay que hacerlo desde aquí y no funciona la orden de minitoc \mtcsetpagenumbers{minitoc}{off}. Además, hay que dar la orden después de haber generado el \tableofcontents
+\setcounter{minitocdepth}{1} % Índices de los capítulos solo con
+
+%\vfill
+
+
+
+
+
+
+
+  
+
+
+
+
+\bibliography{Mibiblioteca}
+
+
+
+\end{document}
+
+

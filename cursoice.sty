@@ -1,0 +1,581 @@
+% ------------------------------------------------
+% Estilos para apuntes de Teleco
+% Autor: Santiago Higuera santiago.higuera@upm.es
+% Enero 2022
+% ------------------------------------------------
+
+% ------------------------------------------------
+% Forma de uso:
+% En el preámbulo del documento principal poner:
+%     \usepackage{cursoice}
+\ProvidesPackage{cursoice}
+\makeatletter
+\let\TituloDelLibro\@title
+\makeatother
+
+% ------------------------------------------------
+% Codificación de caracteres en español
+% ------------------------------------------------
+\RequirePackage[T1]{fontenc}
+\RequirePackage[utf8]{inputenc}
+\RequirePackage[spanish,es-nodecimaldot]{babel}
+
+% --------------------------------
+% Formato de página
+% --------------------------------
+\usepackage{geometry}
+\geometry{
+	a4paper,
+	total={210mm,297mm},
+	left=10mm,right=10mm,top=10mm,bottom=15mm}
+\linespread{1.3}
+
+\usepackage{natbib}
+\bibliographystyle{abbrvnat}
+\setcitestyle{authoryear,open={((},close={))}} %Citation-related commands
+
+% ----------------------------------------------
+% Formato de listas
+% ----------------------------------------------
+\RequirePackage{enumitem}
+\setlist[itemize]{topsep=0pt,itemsep=-1ex,partopsep=1ex,parsep=1ex}
+\setlist[enumerate]{topsep=0pt,itemsep=-1ex,partopsep=1ex,parsep=1ex}
+% ----------------------------------------------
+
+% ----------------------------------------------
+% Matemáticas
+% ----------------------------------------------
+\RequirePackage{amsmath,amssymb,textcomp, xparse}
+\everymath{\displaystyle}
+% Para poner el símbolo de los números Reales como una R con línea doble en el lado izquierdo, se usa el paquete dsfont:
+% la letra R se obtiene con mathds{R}, letra C de números complejos y el conjunto de números naturales y enteros: mathds{C}, mathds{N}, mathds{Z}
+\RequirePackage{dsfont}
+% ----------------------------------------------
+
+% xhfill: provides extended macros for the default \hrulefill command. It allows
+% modification of the width and the colour of the line.
+\RequirePackage{xhfill}
+
+% ----------------------------------------------
+% Enlaces
+% ----------------------------------------------
+\RequirePackage{hyperref}
+\RequirePackage{url}
+% ----------------------------------------------
+
+\RequirePackage{times}
+\renewcommand\familydefault{\sfdefault}
+\RequirePackage{tgheros}
+\RequirePackage[defaultmono,scale=0.85]{droidsansmono}
+
+\RequirePackage{multicol}
+\setlength{\columnseprule}{0pt}
+\setlength{\columnsep}{20.0pt}
+
+% ----------------------------------------------
+% Gráficos
+% ----------------------------------------------
+\RequirePackage{graphicx}
+% El package float permite usar H en permisos de colocacción de gráficos de
+% \begin{figure}[H], y colocar el gráfico justo donde se declara
+\RequirePackage{float}
+% ----------------------------------------------
+
+% ----------------------------------------------
+% Texto alrededor de figuras
+% ----------------------------------------------
+\RequirePackage{wrapfig}
+
+% --------------------------------------------------------
+% Paquete: multirow
+%          Permite combinar celdas  de tablas para que
+%          ocupen más de una fila.
+%          Para combinar columnas no hace falta ningún
+%          paquete
+\RequirePackage{multirow}
+
+\RequirePackage{vwcol} % Para columnas de diferente ancho
+
+% ----------------------------------------------
+% custom title
+% ----------------------------------------------
+\makeatletter
+\renewcommand*{\maketitle}{%
+    \noindent
+    \begin{minipage}{0.2\textwidth}
+        \includegraphics[width=\textwidth]{img/logo_dte.png}
+    \end{minipage}
+    \hspace{1em}
+    \begin{minipage}{0.56\textwidth}
+        \begin{tikzpicture}
+            \node[rectangle,rounded corners=6pt,inner sep=10pt,fill=blue!50!black,text width= 0.95\textwidth] {\color{white} {\Huge \@title} \\ {\Large}};
+        \end{tikzpicture}
+    \end{minipage}
+    \hspace{1em}
+    \begin{minipage}{0.1\textwidth}
+        \includegraphics[width=\textwidth]{img/logo_teleco_2.png}
+    \end{minipage}
+    \hfill
+    \bigskip\bigskip
+}%
+\makeatother
+% ------------------------------------------------
+
+\newcommand{\raya}{
+    \vspace{0.5em}
+    {\centering \rule{10cm}{0.1mm} \par}
+    \vspace{0.5em}
+}
+
+% ---------------------------------------------------------
+% ------------------------------------------------------------------
+% fancyhdr: Encabezados y pies de página
+% ------------------------------------------------------------------
+\RequirePackage{fancyhdr}
+% Eliminar la palabra 'CAPITULO' del encabezado, deja solo el número de capítulo y su título
+\renewcommand{\chaptermark}[1]{\markboth{\thechapter.\ #1 }{}}
+%\renewcommand{\sectionmark}[1]{\markright{\TituloDelLibro #1}}
+
+% ------------------------------------------------
+% custom section
+% ------------------------------------------------
+\usepackage[explicit]{titlesec}
+\newcommand*\sectionlabel{}
+\titleformat{\section}
+{\gdef\sectionlabel{}
+    \normalfont\sffamily\Large\bfseries\scshape}
+{\gdef\sectionlabel{\thesection\ }}{0pt}
+{
+    \noindent
+    \begin{tikzpicture}
+        \node[rectangle,rounded corners=3pt,inner sep=4pt,fill=blue!50!black,text width= 0.95\columnwidth] {\color{white}\sectionlabel#1};
+    \end{tikzpicture}
+}
+\titlespacing*{\section}{0pt}{15pt}{2pt}
+% -----------------------------------------------
+
+% -----------------------------------------------
+% custom footer
+% -----------------------------------------------
+\makeatletter
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot[C]{\footnotesize  \@date\ \ \@author}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\makeatother
+% -----------------------------------------------
+
+
+\fancypagestyle{normal} {%
+    \fancyhead[LO]{}  % Parte izquierda.
+    \fancyhead[CO]{}  % Parte central
+    \fancyhead[RO]{\scriptsize \leftmark \hspace{1em} \textbf \thepage}
+    \fancyhead[LE]{\scriptsize \textbf \thepage \hspace{1em} \TituloDelLibro}
+    \fancyhead[CE]{} % Parte central
+    \fancyhead[RE]{} % Parte derecha.
+    \renewcommand{\headrulewidth}{0.4pt} % Línea bajo encabezados
+    \fancyfoot[LO]{} % Parte izquierda
+    \fancyfoot[CO]{} % Parte central
+    \fancyfoot[RO]{} % Parte derecha
+    \fancyfoot[LE]{} % Parte izquierda
+    \fancyfoot[CE]{} % Parte central
+    \fancyfoot[RE]{} % Parte derecha
+    \renewcommand{\footrulewidth}{0pt} % Línea sobre pies de página
+}
+
+% El estilo de página plain aplica a la primera de los capítulos y las páginas en blanco
+\fancypagestyle{plain}{\fancyhead{} \renewcommand{\headrulewidth}{0pt}}
+
+% El estilo índice se aplica a las páginas de la TOC: Tabla de Contenidos
+\fancypagestyle{indice}{%
+    \fancyhf{} % Borrar todas las especificaciones anteriores
+    \fancyhead[LE]{\scriptsize \textbf \thepage \hspace{1em} \textnormal \TituloDelLibro}   % Parte izquierda
+    \fancyhead[RO]{\scriptsize \leftmark \hspace{1em} \textbf \thepage}   % Parte derecha
+    \renewcommand{\headrulewidth}{0pt}
+    \renewcommand{\footrulewidth}{0pt}
+}
+
+\fancypagestyle{vacio}{
+    \fancyhf{} % Borrar todas las especificaciones anteriores
+    \fancyhead[LE]{}   % Parte izquierda
+    \fancyhead[RO]{}   % 
+    \renewcommand{\headrulewidth}{0pt}
+    \renewcommand{\footrulewidth}{0pt}
+}
+
+% -----------------------------------------------
+% Paquete minitoc:
+% -----------------------------------------------
+% Este paquete crea mini-tablas de contenido al principio de los capítulos 
+% La minitabla se añade con el comando \minitoc
+\RequirePackage[tight,k-tight]{minitoc}
+% Poner el título de las minitablas en castellano
+\renewcommand{\mtctitle}{Contenido}
+% ---------------------------------------------------------------------------
+% IndiceCapitulo: utilizando el paquete minitoc pone un índice del capítulo en 
+%                 la parte inferior de la página. Hay que poner el comando
+% 				  a continuación del comando \chapter
+% Utilización:
+% \IndiceCapitulo
+% ---------------------------------------------------------------------------
+\newcommand{\IndiceCapitulo}{
+    \vfill
+    \begin{center}
+        \begin{minipage}{0.9\textwidth}
+            \minitoc
+        \end{minipage}
+    \end{center}
+    \pagebreak
+}
+
+% -------------------------------------------------------------------
+% Paquete listings: como alternativa a minted, más sencillo
+% de utilizar en windows, debido a las dependencias python de minted
+% -------------------------------------------------------------------
+
+\RequirePackage{listings, listings-rust}
+		\lstset{language=C, frame=none, basicstyle=\ttfamily,
+			aboveskip=0pt,belowskip=0pt,
+			inputencoding = utf8,  % Input encoding
+			extendedchars = true,  % Extended ASCII
+			literate      =  % Support additional characters
+			{á}{{\'a}}1  {é}{{\'e}}1  {í}{{\'i}}1 {ó}{{\'o}}1  {ú}{{\'u}}1
+			{Á}{{\'A}}1  {É}{{\'E}}1  {Í}{{\'I}}1 {Ó}{{\'O}}1  {Ú}{{\'U}}1
+			{à}{{\`a}}1  {è}{{\`e}}1  {ì}{{\`i}}1 {ò}{{\`o}}1  {ù}{{\`u}}1
+			{À}{{\`A}}1  {È}{{\'E}}1  {Ì}{{\`I}}1 {Ò}{{\`O}}1  {Ù}{{\`U}}1
+			{ä}{{\"a}}1  {ë}{{\"e}}1  {ï}{{\"i}}1 {ö}{{\"o}}1  {ü}{{\"u}}1
+			{Ä}{{\"A}}1  {Ë}{{\"E}}1  {Ï}{{\"I}}1 {Ö}{{\"O}}1  {Ü}{{\"U}}1
+			{â}{{\^a}}1  {ê}{{\^e}}1  {î}{{\^i}}1 {ô}{{\^o}}1  {û}{{\^u}}1
+			{Â}{{\^A}}1  {Ê}{{\^E}}1  {Î}{{\^I}}1 {Ô}{{\^O}}1  {Û}{{\^U}}1
+			{œ}{{\oe}}1  {Œ}{{\OE}}1  {æ}{{\ae}}1 {Æ}{{\AE}}1  {ß}{{\ss}}1
+			{ç}{{\c c}}1 {Ç}{{\c C}}1 {ø}{{\o}}1  {Ø}{{\O}}1   {å}{{\r a}}1
+			{Å}{{\r A}}1 {ã}{{\~a}}1  {õ}{{\~o}}1 {Ã}{{\~A}}1  {Õ}{{\~O}}1
+			{ñ}{{\~n}}1  {Ñ}{{\~N}}1  {¿}{{?`}}1  {¡}{{!`}}1
+			{°}{{\textdegree}}1 {º}{{\textordmasculine}}1 {ª}{{\textordfeminine}}1
+			% ¿ and ¡ are not correctly displayed if inconsolata font is used
+			% together with the lstlisting environment. Consider typing code in
+			% external files and using \lstinputlisting to display them instead.      
+		}
+		\lstset{showstringspaces=false} % Para no mostrar subrayado en los espacios
+		\lstset{morekeywords={switch, case, otherwise}}
+
+%----------------------------------------------------------------------------
+% tcolorbox: This package provides an environment for coloured and framed text boxes with a heading line
+%-------------------------------------------------------------------------
+\RequirePackage[table]{colortbl}
+\RequirePackage{tikz}
+\RequirePackage[most]{tcolorbox}
+\tcbuselibrary{listings}
+\definecolor{myyellow}{RGB}{242,226,149}
+\definecolor{mygray}{rgb}{0.95, 0.95, 0.95}
+\definecolor{mylightgray}{rgb}{0.98, 0.98, 0.98}
+\definecolor{azul}{rgb}{0, 0, 0.5}
+
+% ---------------------------------------------------------------------------------
+% Formato para tablas
+% El primer parámetro, entre corchetes, se pasará al tcolorbox subyacente. En el ejemplo, 
+% se pasa un valor para la etiqueta.
+% El segundo parámetro, entre llaves, será el título de la tabla
+% Ejemplo de utilización:
+%\begin{mytable}[label=tabla_graficos_2]{\centering\footnotesize Tipos de linea}
+%	\footnotesize
+%	\begin{tabular}{c l}
+%		%\hline
+%		\textbf{Carácter} & \textbf{Color} \\ \hline
+%		\texttt{-} & Línea continua \\
+%		\texttt{-}\texttt{-} & Línea de trazos \\
+%	\end{tabular}
+%\end{mytable}
+% ---------------------------------------------------------------------------------
+\newtcolorbox[]{mytable}[2][]{halign=center, title={#2}, #1, hbox}
+
+\newtcolorbox[]{mytable2}[2][]{halign=center, title={#2}, #1, hbox}
+
+% ---------------------------------------------------------------------------------
+% Formato para resúmenes al principio del capítulo
+% Utilización:
+% \begin{Resumen}
+%	.......
+% \end{Resumen}
+% ---------------------------------------------------------------------------------
+\newtcolorbox{Resumen}{
+	before=\centering,
+	width=0.9\textwidth,
+	arc=2pt, colframe=black, colback=gray!17, 
+	bottomrule=0.8pt, toprule=0.8pt, leftrule=0.8pt, rightrule=0.8pt,
+	left=2pt, top=2pt, bottom=2pt, right=2pt,
+	before upper=\small\itshape
+}
+
+% -------------------------------------------------------------------------------
+% Nota: Cuadro para observaciones, con marco, título y sombra
+% Utilización:
+% \begin{Nota}[Título]
+%    ... contenido
+% \end{Nota}
+% El título es opcional
+% -------------------------------------------------------------------------------
+\RequirePackage{adjustbox}
+\definecolor{MedGray}{HTML}{f0f0f0}
+\definecolor{FrameBlack}{HTML}{000000}
+\definecolor{DarkGray}{HTML}{101010}
+
+% ---------------------------------------------------------------
+% Nota:
+% Utilización:
+%       Nota[Titulo]
+\newtcolorbox{Nota}[1][Nota]{%
+	center,
+	enhanced,
+	before skip=10mm,after skip=2mm, 
+	width=\textwidth, boxrule=0.2mm, % width of the sticky note
+	colback=MedGray, colframe=DarkGray, % Colors
+	attach boxed title to top left={xshift=0cm,yshift*=0mm-\tcboxedtitleheight},
+	varwidth boxed title*=-3cm,
+	% The titlebox:
+	boxed title style={frame code={%
+			\path[left color=FrameBlack,right color=FrameBlack,
+			middle color=FrameBlack]
+			([xshift=-0mm]frame.north west) -- ([xshift=0mm]frame.north east)
+			[rounded corners=0mm]-- ([xshift=0mm,yshift=0mm]frame.north east)
+			-- (frame.south east) -- (frame.south west)
+			-- ([xshift=0mm,yshift=0mm]frame.north west)
+			[sharp corners]-- cycle;
+		},interior engine=empty,
+	},
+	sharp corners,rounded corners=southeast,arc is angular,arc=3mm,
+	% The "folded paper" in the bottom right corner:
+	underlay={%
+		\path[fill=MedGray!80!black] ([yshift=3mm]interior.south east)--++(-0.4,-0.1)--++(0.1,-0.2);
+		\path[draw=FrameBlack,shorten <=-0.05mm,shorten >=-0.05mm,color=FrameBlack] ([yshift=3mm]interior.south east)--++(-0.4,-0.1)--++(0.1,-0.2);
+	},
+	drop fuzzy shadow, % Shadow
+	fonttitle=\bfseries, 
+	title={#1}
+}
+
+% -----------------------------------------------------------------
+% Sintaxis: cuadros para sintaxis de instrucciones
+% Utilización:
+% \begin{Sintaxis}[label]
+%	... Codigo fuente
+% \end{Sintaxis}
+% El argumento label es opcional
+% ------------------------------------------------------------------
+\newtcblisting[auto counter]{Sintaxis}[1][]{
+	label={#1}, hbox, before skip=0pt,
+	bicolor, arc=3pt, colframe=black, colback=blue!12, colbacklower=white,
+	bottomrule=1.2pt, toprule=1.2pt, leftrule=1.2pt, rightrule=1.2pt,
+	left=4pt, top=4pt, bottom=4pt, right=4pt, 
+	listing only,
+	listing options= {
+		language=Matlab, frame=none, basicstyle=\normalfont\ttfamily,
+		aboveskip=0pt,belowskip=0pt, showstringspaces=false, morekeywords={switch, case, otherwise},
+		inputencoding = utf8,  % Input encoding
+		extendedchars = true,  % Extended ASCII
+	},
+	before={\centering}
+}
+
+% ------------------------------------------------------------------
+% Codigo: cuadro para código, sin título
+% Utilización:
+% \begin{Codigo}
+%    ...........
+% \end{Codigo}
+% ------------------------------------------------------------------
+\newtcblisting{Codigo}{
+	hbox, center, arc=0pt, colframe=black, colback=yellow!10,
+	bottomrule=0.8pt, toprule=0.8pt, leftrule=0.8pt, rightrule=0.8pt,
+	left=5pt, top=0pt, bottom=0pt, right=5pt,
+		listing only,
+	listing options= {
+		language=C, frame=none, basicstyle=\ttfamily,
+		aboveskip=0pt,belowskip=0pt, lineskip=-0.1em, showstringspaces=false, morekeywords={switch, case, otherwise},
+		inputencoding = utf8,  % Input encoding
+		extendedchars = true,  % Extended ASCII
+		%escapeinside={(*}{*)} % Poder poner scape symbols y también math poniendo (*$...$*)
+	}
+}
+
+% ------------------------------------------------------------------
+% Codigo2: cuadro para código, sin título, fondo blanco
+% Utilización:
+% \begin{Codigo2}
+	%    ...........
+	% \end{Codigo2}
+% ------------------------------------------------------------------
+\newtcblisting{Codigo2}{
+	center, arc=0pt, colframe=black, colback=mylightgray,
+	bottomrule=0.5pt, toprule=0.5pt, leftrule=0.5pt, rightrule=0.5pt,
+	left=5pt, top=0pt, bottom=0pt, right=5pt, width=40em, 
+	listing only, 
+	listing options= {
+		language=C, frame=none, xleftmargin=3pt, xrightmargin=3pt, basicstyle=\ttfamily, 
+		aboveskip=0pt,belowskip=0pt, lineskip=-0.1em, showstringspaces=false,         breaklines=true,
+		inputencoding = utf8,  % Input encoding
+		extendedchars = true,  % Extended ASCII
+		%escapeinside={(*}{*)} % Poder poner scape symbols y también math poniendo (*$...$*)
+	}
+}
+
+% ----------------------------------------------------------------------
+% EjemploCodigo: cuadro para ejemplos de código fuente
+% Utilización:
+% \begin{EjemploCodigo}[Título del cuadro]{label}
+%    ... código del programa
+% \end{EjemploCodigo}
+% El título es opcional, pero la etiqueta no, así que hay que poner alguna etiqueta entre
+% llaves o las llaves vacías, si no, se perderá el primer carácter del código. 
+% En las etiquetas no se admite el carácter guion bajo
+\newtcblisting[auto counter]{EjemploCodigo}[2][]{
+	label={#2},
+	bicolor, arc=15pt, colframe=black, colback=white, colbacklower=white,
+	bottomrule=0.8pt, toprule=0.8pt, leftrule=0.8pt, rightrule=0.8pt,
+	left=2pt, top=2pt, bottom=2pt, right=2pt, 
+	fonttitle=\sffamily\bfseries,
+	title={Ejemplo \thetcbcounter},
+	sharp corners, 
+	attach boxed title to top left,
+	boxed title style={
+		enhanced,
+		colframe=black,
+		colback=black,
+		arc=5pt,
+		bottomrule=0pt,
+		rightrule=0pt,
+		sharp corners,
+	},
+	interior style={},
+	frame style={
+		line width=0.8pt,
+		left color=black,
+		right color=black,
+		fill=none},
+	overlay unbroken and first={
+		\node[anchor=west,font=\textbf\sffamily,text width=10cm]
+		at (title.east) {{\strut\color{black} #1}};
+	},
+	listing only,
+	listing options= {
+		language=C, frame=none, basicstyle=\ttfamily,
+		aboveskip=0pt,belowskip=0pt, lineskip=-0.1em, showstringspaces=false, morekeywords={switch, case, otherwise},
+		inputencoding = utf8,  % Input encoding
+		extendedchars = true,  % Extended ASCII
+		%escapeinside={(*}{*)} % Poder poner scape symbols y también math poniendo (*$...$*) 
+	}
+}
+
+% -------------------------------------------------------------------------------------------------
+% EjemploCodigo_ImgDcha: cuadro para ejemplos con código con una imagen en la mitad derecha
+% Para utilizarlo:
+% \begin{EjemploCodigoImgDcha}[Anchura imagen]{Titulo del cuadro}{archivo de imagen}{label}
+%  ... codigo fuente a mostrar
+% \end{EjemploCodigoImgDcha}
+% [Anchura imagen]: por ejemplo, 0.7\linewidth. Por defecto vale \linewidth
+% {Titulo del cuadro}: el título que aparecerá sobre el cuadro
+% {archivo de imagen}: ruta completa del fichero de imagen que aparecerá en la parte derecha del cuadro
+%                      un ejemplo podría ser: img/mi_imagen.png
+% {etiqueta}: la etiqueta que figurará como label para poder referirse al cuadro con \ref{etiqueta}. 
+%             No permite guiones bajos
+% -------------------------------------------------------------------------------------------------
+\newtcblisting[auto counter, use counter from=EjemploCodigo]{EjemploCodigoImgDcha}[4][\linewith]{
+	bicolor, sharp corners, arc=15pt, colframe=black, colback=gray!17, colbacklower=white,
+	bottomrule=0.8pt, toprule=0.8pt, leftrule=0.8pt, rightrule=0.8pt,
+	left=2pt, top=2pt, bottom=2pt, right=2pt,
+	fonttitle=\small\sffamily\bfseries, title={Ejemplo \thetcbcounter},
+	attach boxed title to top left,
+	label={#4},
+	boxed title style={
+		enhanced, sharp corners, colframe=black, colback=black,	arc=5pt, bottomrule=0pt, rightrule=0pt,
+	},
+	interior style={},
+	frame style={
+		left color=black, right color=black, fill=none
+	},
+	overlay unbroken and first={
+		\node[anchor=west,font=\textbf\sffamily,text width=10cm]
+		at (title.east) {{\strut\color{black} #2}};
+	},
+	listing and comment, sidebyside, righthand ratio=0.5, 
+	listing options= {
+		language=Rust, frame=none, basicstyle=\footnotesize\ttfamily,
+		aboveskip=0pt,belowskip=0pt, lineskip=-0.1em, showstringspaces=false, 
+		morekeywords={switch, case, otherwise},
+		inputencoding = utf8,  % Input encoding
+		extendedchars = true,  % Extended ASCII
+		%escapeinside={(*}{*)} % Poder poner scape symbols y también math poniendo (*$...$*)
+	},
+	comment = {
+		%\centering{\tiny\textbf{Salida gráfica} \par}
+		\centering\includegraphics[width=#1]{#3}
+	}
+}
+
+
+
+% ----------------------------------------------------------------------
+% Soluciones: cuadro para soluciones de los ejercicios propuestos
+% Utilización:
+% \begin{Soluciones}[Título del cuadro o vacío]{label}
+	%    ... código del programa
+% \end{Soluciones}
+% El título es opcional, pero la etiqueta no, así que hay que poner alguna etiqueta entre
+% llaves o las llaves vacías, si no, se perderá el primer carácter del código. 
+% En las etiquetas no se admite el carácter guion bajo
+\newtcblisting[auto counter]{Soluciones}[2][]{
+	label={#2},
+	bicolor, arc=15pt, colframe=black, colback=white, colbacklower=white,
+	bottomrule=0.8pt, toprule=0.8pt, leftrule=0.8pt, rightrule=0.8pt,
+	left=2pt, top=2pt, bottom=2pt, right=2pt,
+	fonttitle=\small\sffamily\bfseries,
+	title={Solución \thetcbcounter: },
+	sharp corners, 
+	attach boxed title to top left,
+	boxed title style={
+		enhanced,
+		colframe=black,
+		colback=black,
+		arc=5pt,
+		bottomrule=0pt,
+		rightrule=0pt,
+		sharp corners,
+	},
+	interior style={},
+	frame style={
+		line width=0.8pt,
+		left color=black,
+		right color=black,
+		fill=none},
+	overlay unbroken and first={
+		\node[anchor=west,font=\textbf\sffamily,text width=10cm]
+		at (title.east) {{\strut\color{black} #1}};
+	},
+	listing only,
+	listing options= {
+		language=Matlab, frame=none, basicstyle=\footnotesize\ttfamily,
+		aboveskip=0pt,belowskip=0pt, showstringspaces=false, morekeywords={switch, case, otherwise},
+		inputencoding = utf8,  % Input encoding
+		extendedchars = true,  % Extended ASCII
+		%escapeinside={(*}{*)} % Poder poner scape symbols y también math poniendo (*$...$*) 
+	}
+}
+
+% ----------------------------------------------
+% Cuadros resaltados para tips
+% ----------------------------------------------
+%\RequirePackage{mathdesign}
+\RequirePackage[tikz]{bclogo}
+%\renewcommand\bcStyleTitre[1]{\centering\large\bf{#1}}
+\newcommand{\bcexclam}{\includegraphics[width=0.3\logowidth]{img/Exclamation_mark.png}}
+
+
+% ------------------------------------------------------------------
+% \teclaintro 
+% INTRO + ICONO
+\newcommand{\teclaintro}{\texttt{INTRO}\includegraphics[height=1em]{img/icon_tecla_enter.png}}
+
+\RequirePackage{verbatim}
+
+
